@@ -68,6 +68,14 @@
   cursor: pointer;
 }
 
+.Multipliers-Wrap > button:hover {
+  background-color: rgb(255, 115, 0);
+}
+
+.Numbers-Wrap > button:hover {
+  background-color: rgb(184, 184, 184);
+}
+
 .Numbers-Wrap > button:nth-child(13) {
   grid-area: 5 / 1 / 6 / 3;
 }
