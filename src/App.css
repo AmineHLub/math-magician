@@ -27,9 +27,16 @@
   padding: 0;
   margin: 1rem 1% 0 0;
   align-self: center;
-  font-size: 3rem;
   font-weight: bold;
   color: aliceblue;
+}
+
+.Display > p:not(.full-operation) {
+  font-size: 3rem;
+}
+
+.full-operation {
+  font-size: 1.5rem;
 }
 
 .Multipliers-Wrap {
