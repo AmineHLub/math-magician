@@ -8,16 +8,40 @@ export default class Calculator extends Component {
     this.state = {};
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    const fullOperation = () => {
+      if (prevState.total && prevState.operation && prevState.next) {
+        return (
+          <p className="full-operation">
+            {prevState.total}
+            {' '}
+            {prevState.operation}
+            {' '}
+            {prevState.next}
+            {' '}
+          </p>
+        );
+      }
+      return null;
+    };
+    return (
+      fullOperation()
+    );
+  }
+
   handleEvent(val) {
     this.setState((prevState) => calculate(prevState, val));
   }
 
   render() {
-    const { next, operation, total } = this.state;
+    const {
+      next, operation, total,
+    } = this.state;
     return (
       <>
         <div className="calculator-components">
           <div className="Display">
+            {this.componentDidUpdate(null, this.state)}
             <p>{next || operation || total || '0'}</p>
           </div>
           <div className="Multipliers-Wrap">
