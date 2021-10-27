@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 2%;
+  align-items: center;
+}
+
+.nav-elements {
+  margin: 0 4% 0 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  padding: 0;
+}
