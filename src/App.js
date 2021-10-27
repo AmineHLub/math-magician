@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import CalculatorComponent from './components/CalculatorComponent';
 import Home from './components/Home';
