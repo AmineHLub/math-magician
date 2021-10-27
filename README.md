@@ -21,7 +21,6 @@ Available Operations :
 
 ## Live Demo
 
-(Not deplayed YET.)
 [Live Demo Link](https://github.com/AmineHLub/math-magician.git/)
 
 
