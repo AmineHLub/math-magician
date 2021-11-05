@@ -22,6 +22,8 @@ Available Operations :
 ## Live Demo
 
 [Live Demo Link](https://aminehlub.github.io/math-magician/)
+[Netlify](https://math-magician-aminehlub.netlify.app/)
+[Heroku](https://aminehlub-calculator.herokuapp.com/)
 
 
 ## Getting Started
